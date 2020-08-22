@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA['Selenium' product searched in 'Books' category test  is successfull....]]>
+    </line>
+    <line>
+      <![CDATA['English' product searched in 'Music' category test  is successfull....]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="267148" started-at="2020-08-18T23:59:57 PDT" finished-at="2020-08-19T00:04:25 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="267148" started-at="2020-08-18T23:59:57 PDT" finished-at="2020-08-19T00:04:25 PDT">
+      <class name="DataDrivenFrameworkDemos.DDFprodcatsearchtest">
+        <test-method status="FAIL" signature="CatSearch(java.lang.String, java.lang.String)[pri:0, instance:DataDrivenFrameworkDemos.DDFprodcatsearchtest@bd8db5a]" name="CatSearch" duration-ms="20596" started-at="2020-08-18T23:59:59 PDT" data-provider="ebayData" finished-at="2020-08-19T00:00:20 PDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.ui.Quotes.escape(Quotes.java:42)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:113)
+at DataDrivenFrameworkDemos.DDFprodcatsearchtest.CatSearch(DDFprodcatsearchtest.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CatSearch -->
+        <test-method status="PASS" signature="CatSearch(java.lang.String, java.lang.String)[pri:0, instance:DataDrivenFrameworkDemos.DDFprodcatsearchtest@bd8db5a]" name="CatSearch" duration-ms="109174" started-at="2020-08-19T00:00:20 PDT" data-provider="ebayData" finished-at="2020-08-19T00:02:09 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA['Selenium' product searched in 'Books' category test  is successfull....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CatSearch -->
+        <test-method status="PASS" signature="CatSearch(java.lang.String, java.lang.String)[pri:0, instance:DataDrivenFrameworkDemos.DDFprodcatsearchtest@bd8db5a]" name="CatSearch" duration-ms="134961" started-at="2020-08-19T00:02:09 PDT" data-provider="ebayData" finished-at="2020-08-19T00:04:24 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA['English' product searched in 'Music' category test  is successfull....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CatSearch -->
+      </class> <!-- DataDrivenFrameworkDemos.DDFprodcatsearchtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
